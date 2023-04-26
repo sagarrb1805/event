@@ -1,0 +1,43 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+
+  "user": [
+    {
+      "id":1,
+      "userName":"admin123",
+      "role": "admin",
+      "service": null
+    }, 
+    {
+      "id":2,
+      "userName":"vendor123",
+      "role": "vendor",
+      "service": "Catering"
+    },
+    {
+      "id":3,
+      "userName":"vendor321",
+      "role": "vendor",
+      "service": "Music"
+    },
+    {
+      "id":4,
+      "userName":"user123",
+      "role": "user",
+      "service": null
+    }
+  ],
+  "Event":[
+    {
+      "user": 4,
+      "vendor":[3, 2],
+      "text": "Random text"
+    }
+  ]
+}
